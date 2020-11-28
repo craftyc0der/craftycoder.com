@@ -12,7 +12,7 @@ fontawesome:
   pro: false
 colors:
   primary: '#3772ba'
-  secondary: '#75777a'
+  secondary: '#96989b'
   success: '#008f54'
   info: '#00c9dc'
   warning: '#fdf314'

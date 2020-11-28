@@ -45,6 +45,9 @@ fragment = "config"
     .badge {
         font-family: 'Open Sans Condensed';
     }
+    .gist .markdown-body code, section .bg-light pre {
+      color: #373737;
+    }
   </style>
   """
 
