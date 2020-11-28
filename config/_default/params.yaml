@@ -1,0 +1,21 @@
+name: Joshua Oster-Morris
+description: Capacitance fopr Thought
+apiURL: 'http://localhost:5001/craftycoder-e95a2/us-central1/api'
+style: { }
+custom:
+  favicon: favicon.ico
+  favicon_ico_sizes: 16x16
+  favicon_png: favicon-32x32.png
+  favicon_svg: images/logo.svg
+fontawesome:
+  disabled: false
+  pro: false
+colors:
+  primary: '#3772ba'
+  secondary: '#75777a'
+  success: '#008f54'
+  info: '#00c9dc'
+  warning: '#fdf314'
+  danger: '#dc1200'
+  light: '#eeeeee'
+  dark: '#373737'

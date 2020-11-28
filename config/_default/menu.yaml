@@ -1,0 +1,46 @@
+main:
+  - url: /
+    name: Home
+    weight: 10
+  - url: /blog
+    name: Blog
+    weight: 20
+  - url: /books
+    name: Books
+    weight: 30    
+  - url: /haiku
+    name: Haiku
+    weight: 30    
+  - url: /about
+    name: About Me
+    weight: 50
+#footer:
+#  - url: '#'
+#    name: Link
+#    weight: 10
+#  - url: '#'
+#    name: Long Link
+#    weight: 30
+#  - url: '#'
+#    name: Tiny Link
+#    weight: 30
+copyright_footer:
+  - url: /about
+    name: About Me
+    weight: 10
+  - url: 'https://dc-control.com'
+    name: 'DC Control Systems, LLC'
+    weight: 30
+footer_social:
+  - weight: 20
+    name: twitter
+    pre: fab fa-twitter
+    url: 'https://twitter.com/craftyc0der'
+  - weight: 30
+    name: linkedin
+    pre: fab fa-linkedin-in
+    url: 'https://www.linkedin.com/in/joshua-oster-morris/'
+  - weight: 40
+    name: github
+    url: 'https://github.com/craftyc0der'
+    pre: fab fa-github

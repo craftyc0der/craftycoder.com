@@ -1,0 +1,5 @@
+[{
+    "origin": ["localhost:1313","craftycoder.com"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+}]

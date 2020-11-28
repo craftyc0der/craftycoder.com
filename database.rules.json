@@ -1,0 +1,20 @@
+{
+  "rules": {
+    ".read": "true",
+    ".write": "auth != null",
+    "haiku": {
+      ".indexOn": ["featured"]
+    },
+    "books": {
+      "2020": {
+        ".indexOn": ["order"]
+			},
+      "2019": {
+        ".indexOn": ["order"]
+      },
+      "1976": {
+        ".indexOn": ["order"]
+      }
+    }
+  }
+}

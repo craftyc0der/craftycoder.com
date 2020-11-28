@@ -1,0 +1,83 @@
+{{- $fragment := .self.Params -}}
+{{- $count := $fragment.count | default 0 }}
+{{- $year := $fragment.year | default 2020 }}
+{{- $title := $fragment.title | default "Books This Year" }}
+{{- $background := $fragment.background | default "secondary" }}
+{{- $id := $fragment.id | default "2JM308HP9YBN3" }}
+{{- $container := $fragment.container | default "bookslot" }}
+{{- $apiurl := .Site.Params.apiURL | default "http://localhost:5001/craftycoder-e95a2/us-central1/api" }}
+<section id="book" class="fragment ">
+    <div class="container-fluid {{- printf " bg-%s" $background -}} ">
+        <div class="container py-5 ">
+
+            <div class="title-container row mx-0">
+                <div class="title col px-0 text-center text-body">
+                    <h2>{{- $title -}}</h2>
+                </div>
+            </div>
+            <div id="{{- printf "%s" $container -}}" class="row mx-0 text-body">
+
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    /* Create two unequal columns that floats next to each other */
+    .bookcolumn {
+        float: left;
+    }
+    
+    .bookleft {
+        width: 10rem;
+        text-align: center;
+    }
+    
+    .bookright {
+        text-align: center;
+        float: none;
+        padding-top: 1.5rem;
+        font-family: 'Playfair Display';
+    }
+    .bookright p {
+        font-family: 'Open Sans Condensed'
+    }
+    
+    /* Clear floats after the columns */
+    .bookrow:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .bookrow a {
+        color:  #212529;
+    }
+</style>
+<script>
+    if (bookRef == undefined) {
+        var bookRef = {}
+    }
+    bookRef[{{- $id -}}] = firebase.database().ref('books/{{- $year -}}/').orderByChild("order");
+    if ({{- $count -}} > 0) {
+        getJSON('{{- printf "%s/books/%s?count=%d&year=%d" $apiurl $id $count $year -}}',
+        function(err, data) {
+            if (err !== null) {
+                
+            } else {
+
+            }
+        });
+        bookRef[{{- $id -}}] = bookRef[{{- $id -}}].limitToFirst({{- $count -}})
+    }
+    bookRef[{{- $id -}}].on('value', (snapshot) => {
+        let x = 0;
+        let post = document.getElementById({{- printf "%s" $container -}});
+        while (post.firstChild) {
+            post.removeChild(post.firstChild);
+        }
+        snapshot.forEach((childSnapshot) => {
+            var childKey = childSnapshot.key;
+            var element = childSnapshot.val();
+            addCard(post, '<div class="bookrow" id="' + childKey + '"><a href="' + element.href + '" target="_blank"><div class="bookcolumn bookleft"><img src="' + element.image + '"/></div></a><div class="bookcolumn bookright"><h5>' + element.title + '</h5><p>' + element.author + '</p></div></div>') 
+        });
+    });
+</script>

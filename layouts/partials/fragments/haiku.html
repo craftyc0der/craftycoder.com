@@ -1,0 +1,39 @@
+{{- $fragment := .self.Params -}}
+{{- $count := $fragment.count | default 0 }}
+{{- $featured := $fragment.featured | default false }}
+{{- $title := $fragment.title | default "Haiku" }}
+{{- $background := $fragment.background | default "secondary" }}
+<section id="haiku" class="fragment ">
+    <div class="container-fluid {{- printf " bg-%s" $background -}} ">
+        <div class="container py-5 ">
+
+            <div class="title-container row mx-0">
+                <div class="title col px-0 text-center text-body">
+                    <h2>{{- $title -}}</h2>
+                </div>
+            </div>
+            <div id="haikuslot" class="row mx-0 text-body">
+
+            </div>
+        </div>
+    </div>
+</section>    
+<script>    
+    var haikuRef = firebase.database().ref('haiku/').orderByChild("featured");
+    if ({{- $count -}} > 0) {
+        haikuRef = haikuRef.limitToFirst({{- $count -}});
+    }
+    haikuRef.on('value', (snapshot) => {
+        let x = 0;
+        var post = document.getElementById('haikuslot');
+        while (post.firstChild) {
+            post.removeChild(post.firstChild);
+        }
+        snapshot.forEach((childSnapshot) => {
+            var childKey = childSnapshot.key;
+            var childData = childSnapshot.val();
+            addCard(post, '<h5 style="text-align: center;">' + childData.text + '</h5>')
+        });
+    });
+
+</script>
