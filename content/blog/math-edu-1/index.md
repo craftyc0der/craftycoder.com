@@ -3,7 +3,7 @@ fragment = "content"
 categories = ["Philosophy", "Math", "Education"]
 title = "Is Math Racist?"
 display_date = true
-date = "2020-11-25"
+date = "2020-11-29"
 weight= 100
 katex = true
 
