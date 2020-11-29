@@ -197,14 +197,14 @@ We know other things about these credentials Mr. Oakley spoke about. We know, fo
 | Average | +4.4% | +15.1% | +5.1% | +34.1% |
 | Median | +3.8% | +16.0% | +5.7% | +30.4% |
 
-The reason why this is so important is that signalling requires confidence. Employers need to know that the credential is actually selecting for something valuable or they will stop using it. Mr. Oakley is selecting the people who can least afford it and selling them something that is explicitly watered down in value by his actions. It is absolutely unconscionable in my opinion. We all have opinions though. Who says mine is right?
+The reason why this is so important is that signalling the diploma conveys requires confidence. Employers need to know that the credential is actually selecting for something valuable or they will stop using it. Mr. Oakley is selecting the people who can least afford it and selling them something that is explicitly watered down in value by his actions. It is absolutely unconscionable in my opinion. We all have opinions though. Who says mine is right?
 
 <div class="float-right">
 {{< thumbd src="seattle.png" title="Seattle K-12 Math Framework" target="seattle" width="200" class="rounded" >}}
 
 {{< thumbd src="twitter1.png" title="#takebackmath" target="twitter1" width="200" class="rounded" >}}
 
-{{< thumbd src="twitter2.png" title="2 + 2 = 5" target="twitter2" width="200" class="rounded" >}}
+{{< thumbd src="twitter2.png" title="white supremacist patriarchy" target="twitter2" width="200" class="rounded" >}}
 </div>
 
 Mr. Oakley is not alone. Strange things are happening around math education in many places. Seattle public schools are making math an explicitly [ethnic course](https://www.k12.wa.us/sites/default/files/public/socialstudies/pubdocs/Math%20SDS%20ES%20Framework.pdf) of study. [Lee Ohanian at the Hoover Institute](https://www.hoover.org/research/seattle-schools-propose-teach-math-education-racist-will-california-be-far-behindseattle) wrote:
@@ -212,16 +212,13 @@ Mr. Oakley is not alone. Strange things are happening around math education in m
 > According to Seattle educators, math instruction in the United States is an example of “Western Math,” which apparently is the appropriation of mathematical knowledge by Western cultures. While everyone agrees that two plus two is four, three times three is nine, and that there are three hundred and sixty degrees in a circle, Western Math critics worry about more nuanced issues, such as why we teach kids Western counting and not, for example, how the Aborigines count.
 — <cite>Ohanian</cite>
 
-Ohanian is wrong about at least one thing. Not everyone agrees that $2 + 2 = 4$. There is a small but growing group of people who will shout from the rafters saying that this is false and "reeks of white supremacist patriarchy". It may sound like a fringe voice, but the author of that is a math education professor from Brooklyn College. If she thinks $2 + 2 = 4$ is white supremacy it is probably not as fringe a position in the academy as we think. Mr. Oakley certainly seems to think that algebra has a certain racist component that means some people cannot learn it because of *lived experience*. Frankly, it sounds ridiculous to me.
-
+Ohanian is wrong about at least one thing. Not everyone agrees that $2 + 2 = 4$. There is a small but growing group of people who will shout from the rafters saying that this is false and "reeks of white supremacist patriarchy". It may sound like a fringe voice, but the author of that is a math education professor from Brooklyn College. If she thinks this, and is willing to say it in public, it is probably not as fringe a position in the academy as we might think. Mr. Oakley certainly seems to think that algebra has a certain racist component that means some people cannot learn it because of *lived experience*.
 
 > Freedom is the freedom to say that 2+2=4. If that is granted, all else follows
 > — <cite>George Orwell, 1984</cite>
 
-There is light at the end of this tunnel, thank goodness. The National Council of Teachers of Mathematics is engaged in a lobbying effort to [detrack math](https://www.nctm.org/News-and-Calendar/Messages-from-the-President/Archive/Robert-Q_-Berry-III/Initiating-Critical-Conversations-on-the-Discontinuation-of-Tracking/). Detracking is literally putting all students of the same age into the same classroom. Apparently, ***math teachers*** they think everyone can learn ***math*** at the same rate. I guess that means none of us will be taking that intermediate algebra class for much longer.
+There is light at the end of this tunnel, thank goodness. The National Council of Teachers of Mathematics is engaged in a lobbying effort to [detrack math](https://www.nctm.org/News-and-Calendar/Messages-from-the-President/Archive/Robert-Q_-Berry-III/Initiating-Critical-Conversations-on-the-Discontinuation-of-Tracking/). Detracking is literally putting all students of the same age into the same classroom. Apparently, ***math teachers*** think everyone can learn math at the same rate. I guess that means none of us will be taking that intermediate algebra class for much longer.
 
 Your obedient servant,
 
-
 [^1]: *The Case against Education* by Bryan Caplan
-
