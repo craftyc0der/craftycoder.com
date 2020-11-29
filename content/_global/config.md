@@ -119,5 +119,5 @@ fragment = "config"
             xhr.send();
         };
     </script>
-  """    
+  """ 
 +++
