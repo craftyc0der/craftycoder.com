@@ -23,12 +23,11 @@ After listening to an astounding [NPR story](https://www.npr.org/2017/07/19/5380
 
 {{< thumbd src="lm.jpg" title="Long Multiplication" target="lm" width="200" class="rounded float-right" >}}
 
-To set the stage for this tale, we need to travel back to May, 2017. My son Zev had just finished 1st grade. He was enrolled at *the best* public elementary school in the city. I assumed he would be getting a decent education. I don't really know what that means, but I assumed it would be like mine. So, when he finished 1st grade only having progressed to addition of 1 digit numbers I was rather disappointed. I decided it was time for me to take a more active role in his education. We studied time tables for a couple weeks and while he had not yet memorized the times tables, he memorized all the squares $x^2∣{12 \atop 0}$ so he could calculate any value with addition in a few seconds.
+To set the stage for this story, we need to travel back to May, 2017. My son, Zev, had just finished 1st grade. He was enrolled at *the best* public elementary school in the city. I assumed he would be getting a decent education. I don't really know what that means, but I assumed it would be like mine. So, when he finished 1st grade only having progressed to addition of 1 digit numbers I was rather disappointed. I decided it was time for me to take a more active role in his education. We studied time tables for a couple weeks and while he had not yet memorized the times tables, he memorized all the squares $x^2\ ∣{12 \atop 0}$ so he could calculate any value with addition in a few seconds.
 
 {{< thumbd src="div1.jpg"  title="Division Pleze" target="div1" width="200" class="rounded float-right" >}}
 
-This was a good start. By June he was rocking long multiplication.
-
+This was a good start. By June he was rocking long multiplication. I was convinced that the schools were not even trying. We were not spending any more time on this than the time one would spend in a math class and yet 
 
 <style>
     .modal-header {
