@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{{- partial "head.html" . }}
+{{- partial "cat_header.html" -}}
+<!-- List -->
+<section id="list" class="fragment ">
+    <div class="container-fluid bg-secondary ">
+    <div class="container py-5 ">
+
+  <div class="title-container row mx-0">
+    <div class="title col px-0 text-center text-body">
+      <h2>{{ .LinkTitle }} Blog Entries</h2>
+    </div>
+  </div>
+  <div class="row mx-0 text-body">
+    {{ range  .Pages }}
+    <div class="col-lg-6 col-12 mb-2 d-flex"><article
+          class="card w-100">
+            <div class="card-body">
+                <div class="card-title">
+                <div class="col-12 pl-0 pb-1 text-body">
+                  <div
+                    class="row align-items-center justify-content-between mx-0 article-title">
+                      <h4 class="col px-0 m-0">
+                        <a href="{{ .Permalink }}">{{ .Title  }}</a>
+                      </h4>
+                  </div>
+                </div><div class="col-12 pb-2 px-0">
+  {{- partial "helpers/publish-date.html" (dict "root" . "background" "primary" "badge" true) -}}  
+  {{- with .Params.categories }}
+    {{- partial "helpers/categories.html" (dict "categories" . "background" "secondary") -}}
+  {{- end -}}
+
+                  </div>
+                </div>
+                {{- if and (ne .Params.images false) .Params.asset -}}  
+                  <div class="col-12 mt-1 px-0">
+                    <img
+                      src="{{ .Permalink }}/{{ .Params.asset.image }}"
+                      alt="{{ .Params.subtitle | default .Title }}"
+                      class="img-fluid mb-2">                      
+                  </div>
+                {{- end -}}
+                <div class="col-12 pl-0 mt-2 text-body">{{ .Summary  }}</div>
+            </div>
+        </article>
+    </div>
+    {{ end }}
+
+        </div>
+  </div>
+    </div>
+    </div>
+</section>
+
+{{- partial "cat_footer.html" -}}
