@@ -9,7 +9,7 @@ katex = true
 
 summary = """
 
-After listening to an astounding [NPR story](https://www.npr.org/2017/07/19/538092649/say-goodbye-to-x-y-should-community-colleges-abolish-algebra) about California community colleges dropping its intermediate algebra requirement because of racial differences in success in the class, I decided I would see if I could teach my son algebra. He had just finished the first grade. Let;s see what that experience taught me about math and racism.
+After listening to an astounding [NPR story](https://www.npr.org/2017/07/19/538092649/say-goodbye-to-x-y-should-community-colleges-abolish-algebra) about California community colleges dropping its intermediate algebra requirement because of racial differences in success in the class, I decided I would see if I could teach my son algebra. He had just finished the first grade. Let's see what, if anything, that experience taught me about math and racism.
 
 """
 
