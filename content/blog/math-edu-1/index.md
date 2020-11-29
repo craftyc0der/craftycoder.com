@@ -26,10 +26,9 @@ After listening to an astounding [NPR story](https://www.npr.org/2017/07/19/5380
 {{< thumbd src="div1.jpg"  title="Division Pleze" target="div1" width="200" class="rounded" >}}
 </div>
 
-
 To set the stage for this story, we need to travel back to May, 2017. My son, Zev, had just finished 1st grade. He was enrolled at “the best” public elementary school in the city. I assumed he would be getting a decent education; not that I really know what that means. When he finished 1st grade only having progressed to addition of single digit numbers I was disappointed. My first grade teacher, Mrs. Larabee, demanded mastery of the times tables to advance to second grade. Channeling my inner Mrs. Larabee, I decided it was time for me to take a more active role in Zev’s education. We studied time tables for a couple weeks and while he had not yet memorized them, he did memorize all the squares $x^2\ ∣{12 \atop 0}$ so he could calculate any value with addition in a few seconds.
 
-This was a good start. By June, he was rocking long multiplication. I had the feeling the school was not really optimizing for Zev’s pace. Considering we were not spending any more time on this than you might spend in school on a normal day, the pace of progress was encouraging. The same day he did the long multiplication above, I showed him long division so he could see the procedure was reversible. I recall saying, “We will work on this next summer.” 
+This was a good start. By June, he was rocking long multiplication. I had the feeling the school was not really optimizing for Zev’s pace. Considering we were not spending any more time on this than you might spend in school on a normal day, the pace of progress was encouraging. The same day he did the long multiplication above, I showed him long division so he could see the procedure was reversible. I recall saying, “We will work on this next summer.”
 
 When I came home from work two days hence this sign was waiting for me.
 
@@ -37,7 +36,7 @@ When I came home from work two days hence this sign was waiting for me.
 
 I was more than a little pleased to see how excited he was to learn. Learning is among my favorite things and he clearly has that in him as well.
 
-On July 19th, 2017 (5 weeks after the happy note was posted on the fence) I was listening to NPR's afternoon show, *All Things Considered*. They were running a [story](https://www.npr.org/2017/07/19/538092649/say-goodbye-to-x-y-should-community-colleges-abolish-algebra) about California community colleges dropping their intermediate algebra requirement. Ostensibly, the reason they were removing this requirement was to increase graduation rates. The Chancellor, Eloy Ortiz Oakley, went on to say that there were racial differences in success in algebra but it was not caused by a cognitive deficit. The evidence he asserts for this is that he can teach minorities other math topics that are “just as rigorous” as algebra with “better” results. 
+On July 19th, 2017 (5 weeks after the happy note was posted on the fence) I was listening to NPR's afternoon show, *All Things Considered*. They were running a [story](https://www.npr.org/2017/07/19/538092649/say-goodbye-to-x-y-should-community-colleges-abolish-algebra) about California community colleges dropping their intermediate algebra requirement. Ostensibly, the reason they were removing this requirement was to increase graduation rates. The Chancellor, Eloy Ortiz Oakley, went on to say that there were racial differences in success in algebra but it was not caused by a cognitive deficit. The evidence he asserts for this is that he can teach minorities other math topics that are “just as rigorous” as algebra with “better” results.
 
 If more people can pass test A than can pass test B, that is the definition of less rigorous is it not?
 
@@ -51,7 +50,7 @@ My immediate response to this story was despair. Apparently, educators had lost 
 2. Some students are unable to learn the topic
 3. The topic is too hard for anyone to learn
 
-The fact that there is a racial disparity in algebra success suggests that the professors are able to teach some of the students. This means the professors are not completely useless. Since some students pass the class, the topic is learnable. That leaves number two as the most likely problem. Mr. Oakley cannot accept that the problem might be with the students themselves. He is also disinclined to blame the professors as he represents them. So, in effect, he blames the math. He believes algebra is not applicable to the *lived experience* of students who are poor or not white. So, he has invented a world where there exists “alternative math pathways just as rigorous” as algebra that any student can pass. I do not dispute they have identified classes that everyone can pass, I just doubt they have done so without increasing the average grade in these classes. I have not seen the data (though I have looked for it) but I suspect we will find more people passing rather than different people passing. That means it is less rigorous, by definition.
+The fact that there is a racial disparity in algebra success suggests that the professors are able to teach some of the students. This means the professors are not completely useless. Since some students pass the class, the topic is learnable. That leaves number two as the most likely problem. Mr. Oakley cannot accept that the problem might be with the students themselves. He is also disinclined to blame the professors as he represents them. So, in effect, he blames the math. He believes algebra is not applicable to the *lived experience* of students who are poor or not white. So, he has invented a world where there exists “alternative math pathways just as rigorous” as algebra that any student can pass. I do not dispute they have identified classes that everyone can pass, I just doubt they have done so without increasing the average grade in these classes. I have not seen the data (though I have looked for it) but I suspect we will find more people passing rather than different people passing. That would mean it is less rigorous, by definition.
 
 <div class="float-right">
 {{< thumbd src="algebra1.jpg"  title="11 Days after NPR Story" target="algebra1" width="200" class="rounded" >}}
@@ -59,9 +58,9 @@ The fact that there is a racial disparity in algebra success suggests that the p
 {{< thumbd src="algebra2.jpg"  title="20 Days after NPR Story" target="algebra2" width="200" class="rounded" >}}
 </div>
 
-So, what about this *lived experience* stuff. Does that make a difference? Can someone just as talented but with different *lived experiences* really have different capabilities as he suggests? I decided to run an experiment using my son. Could I teach a 7 year old algebra?
+So, what about this *lived experience* stuff. Does that make a difference? Can someone just as talented but with different *lived experiences* from white college students really have different capabilities as he suggests? I decided to run an experiment using my son. Could I teach a 7 year old algebra?
 
-It turns out that I could. In fact it was quite easy. We started with the basics of variables and doing operations on both sides of the equation. It became immediately apparent that he needed to learn fractions as well. So, that got tossed into our *alternative math pathway*. Zev took to all the symbols and logic like a duck to water. He never once complained that his *lived experience* made him incapable of learning these topics.
+It turns out that I could. In fact, it was quite easy. We started with the basics of variables and doing operations on both sides of the equation. It became immediately apparent that he needed to learn fractions as well. So, that got tossed into our *alternative math pathway*. Zev took to all the symbols and logic like a duck to water. He never once complained that his *lived experience* made him incapable of learning these topics.
 
 {{< youtube -5J6EwmLX64 >}}
 
@@ -177,7 +176,7 @@ I downloaded US Government data from [bls.gov](https://www.bls.gov/nls/) Nationa
     <img src="1997-3.png">
     <img src="1997-4.png">
     <img src="1997-5.png">
-    <img src="1997-6.png">                    
+    <img src="1997-6.png">
 </details>
 
 The data tell a consistent story that is repeated in the depressed graduation rates. So, if *lived experience* is the answer, it also has to explain ASVAB, SAT, ACT, Peabody, and IQ tests done on 20000 Americans over many decades. I’m still waiting for that to happen.
