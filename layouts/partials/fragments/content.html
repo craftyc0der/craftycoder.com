@@ -1,5 +1,6 @@
 {{- $self := .self -}}
 {{- .page_scratch.Add "js" (dict "file" "syna-content.js") -}}
+{{- .page_scratch.Add "js" (dict "file" "syna-portfolio.js") -}}
 {{- $bg := .self.Scratch.Get "bg" }}
 {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
 
