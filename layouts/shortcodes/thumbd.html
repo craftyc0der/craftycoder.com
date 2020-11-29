@@ -1,44 +1,62 @@
 <!-- Button trigger modal -->
 <div class="{{ with .Get "class" }} {{.}}{{ end }}">
-        <div class="">
-          <div
-            class="border rounded position-relative portfolio-item overflow-hidden 
-              {{- if not .Params.item_url }} has-modal {{- end -}}
-            ">
-            {{- if .Params.item_url }}
-              <a href="{{ .Params.item_url | relLangURL }}">
-            {{- end }}
-                {{- $this := . -}}
-                <img 
-                class="rounded portfolio-background"
-                {{ with .Get "width" }}width="{{.}}"{{ end }}
-                {{ with .Get "height" }}height="{{.}}"{{ end }}
-                {{ with .Get "src" }}src="{{.}}"{{ end }}
-                {{ with .Get "alt" }}alt="{{.}}"{{ end }}
-                >
-                <div class="position-absolute hover-overlay"></div>
-                {{- if .Params.labels -}}
-                  <div class="position-absolute text-light badge-container">
-                    {{- range .Params.labels -}}
-                      <span class="badge badge-dark">
-                        <i class="{{ .icon }}"></i>
-                        <span>{{ .title }}</span>
-                      </span>
-                    {{- end -}}
-                  </div>
-                {{- end -}}
-                {{- if or .Params.title .Params.subtitle }}
-                  <div class="position-absolute description-container col">
-                    <div class="row flex-column justify-content-center description text-light p-2 rounded text-center">
-                      {{ if .Params.title }}<h5 class="title">{{ .Params.title }}</h5>{{ end }}
-                      {{ if .Params.subtitle }}<h6 class="subtitle">{{ .Params.subtitle }}</h6>{{ end }}
-                    </div>
-                  </div>
-                {{- end }}
-                <div class="content hidden"></div>
-            {{- if .Params.item_url }}
-              </a>
-            {{- end }}
-          </div>
-        </div>
+  <div class="">
+    <div
+      class="border rounded position-relative portfolio-item overflow-hidden 
+        {{- if not .Params.item_url }} has-modal {{- end -}}
+      ">
+      {{- if .Params.item_url }}
+        <a href="{{ .Params.item_url | relLangURL }}">
+      {{- end }}
+          {{- $this := . -}}
+          <img 
+          class="rounded portfolio-background"
+          {{ with .Get "width" }}width="{{.}}"{{ end }}
+          {{ with .Get "height" }}height="{{.}}"{{ end }}
+          {{ with .Get "src" }}src="{{.}}"{{ end }}
+          {{ with .Get "alt" }}alt="{{.}}"{{ end }}
+          >
+          <div class="position-absolute hover-overlay"></div>
+          {{- if .Params.labels -}}
+            <div class="position-absolute text-light badge-container">
+              {{- range .Params.labels -}}
+                <span class="badge badge-dark">
+                  <i class="{{ .icon }}"></i>
+                  <span>{{ .title }}</span>
+                </span>
+              {{- end -}}
+            </div>
+          {{- end -}}
+          {{- if or .Params.title .Params.subtitle }}
+            <div class="position-absolute description-container col">
+              <div class="row flex-column justify-content-center description text-light p-2 rounded text-center">
+                {{ if .Params.title }}<h5 class="title">{{ .Params.title }}</h5>{{ end }}
+                {{ if .Params.subtitle }}<h6 class="subtitle">{{ .Params.subtitle }}</h6>{{ end }}
+              </div>
+            </div>
+          {{- end }}
+          <div class="content hidden"></div>
+      {{- if .Params.item_url }}
+        </a>
+      {{- end }}
+    </div>
   </div>
+</div>
+
+<style>
+  .modal-header {
+      padding-bottom: 0rem;
+  }
+  .p-3 {
+      padding: 0rem !important;
+  }
+  .portfolio-item .title {
+      padding-bottom: 0rem;
+  }
+  .float-left {
+      margin-right: 1rem;
+  }
+  .float-right {
+      margin-left: 1rem;
+  }
+</style>

@@ -48,6 +48,19 @@ fragment = "config"
     .gist .markdown-body code, section .bg-light pre {
       color: #373737;
     }
+    .content-body ol, .content-body ul {
+        font-family: 'Open Sans Condensed';
+        font-size: 1.25rem;
+    }
+    .content-body table {
+        border-style: ridge;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .content-body details {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
   </style>
   """
 
