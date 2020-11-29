@@ -33,17 +33,17 @@ This was a good start. By June, he was rocking long multiplication. I had the fe
 
 When I came home from work two days hence this sign was waiting for me.
 
-> To: Dad - Division by next summer pretty pleze — <cite>Zev</cite>
+> To: Dad - Division by next summer pretty pleze — <cite>Zev ☺</cite>
 
 I was more than a little pleased to see how excited he was to learn. Learning is among my favorite things and he clearly has that in him as well.
 
 On July 19th, 2017 (5 weeks after the happy note was posted on the fence) I was listening to NPR's afternoon show, *All Things Considered*. They were running a [story](https://www.npr.org/2017/07/19/538092649/say-goodbye-to-x-y-should-community-colleges-abolish-algebra) about California community colleges dropping their intermediate algebra requirement. Ostensibly, the reason they were removing this requirement was to increase graduation rates. The Chancellor, Eloy Ortiz Oakley, went on to say that there were racial differences in success in algebra but it was not caused by a cognitive deficit. The evidence he asserts for this is that he can teach minorities other math topics that are “just as rigorous” as algebra with “better” results. 
 
-If more people can pass test A than can pass test B, that is the definition of less rigorous, is it not?
+If more people can pass test A than can pass test B, that is the definition of less rigorous is it not?
 
 > this economy — which is unforgiving of those students who don't have a credential — the biggest barrier for them is this algebra requirement. It's what has kept them from achieving a credential — <cite>Oakley</cite>
 
-The solution is clear to him, remove the offending requirement, and graduation rates will go up. He recognizes that there is a signalling component to these credentials because he goes to great pains to say the new formulation is “just as rigorous” and when asked if he is just taking the easy way out by removing the challenge from the curriculum he says, “nothing could be further from the truth”. He is right about that part, at least. Nothing could be further from the truth. Removing challenging topics from the curriculum is the easy way out. I will discuss why this is a problem later.
+The solution is clear to him, remove the offending requirement and graduation rates will go up. He recognizes that there is a signalling component to these credentials because he goes to great pains to say the new formulation is “just as rigorous”. When asked if he is just taking the easy way out by removing the challenge from the curriculum he says, “nothing could be further from the truth”. He is right about that part, at least. Nothing could be further from the truth. Removing challenging topics from the curriculum is the easy way out. I will discuss why this is a problem later.
 
 My immediate response to this story was despair. Apparently, educators had lost the plot. It seems to me there are three options here to consider here.
 
@@ -51,7 +51,7 @@ My immediate response to this story was despair. Apparently, educators had lost 
 2. Some students are unable to learn the topic
 3. The topic is too hard for anyone to learn
 
-The fact that there is a racial disparity in algebra outcomes suggests that the professors are able to teach some of the students. This means the professors are not completely useless. Since some students pass the class, the topic is learnable. That leaves number two as the most likely problem. Mr. Oakley cannot accept that the problem might be with the students themselves. He is also disinclined to blame the professors as he represents them. So, in effect, he blames the math. Algebra is just not applicable to the *lived experience* of students who are poor or not white, he says. So, he has invented a world where there exists “alternative math pathways just as rigorous” as algebra that all students can pass. I do not dispute they have identified classes that everyone can pass, I just doubt they have done so without increasing the average grade in these classes. I have not seen the data (though I have looked for it) but I suspect we will find more people passing rather than different people passing. That means it is less rigorous, by definition.
+The fact that there is a racial disparity in algebra success suggests that the professors are able to teach some of the students. This means the professors are not completely useless. Since some students pass the class, the topic is learnable. That leaves number two as the most likely problem. Mr. Oakley cannot accept that the problem might be with the students themselves. He is also disinclined to blame the professors as he represents them. So, in effect, he blames the math. He believes algebra is not applicable to the *lived experience* of students who are poor or not white. So, he has invented a world where there exists “alternative math pathways just as rigorous” as algebra that any student can pass. I do not dispute they have identified classes that everyone can pass, I just doubt they have done so without increasing the average grade in these classes. I have not seen the data (though I have looked for it) but I suspect we will find more people passing rather than different people passing. That means it is less rigorous, by definition.
 
 <div class="float-right">
 {{< thumbd src="algebra1.jpg"  title="11 Days after NPR Story" target="algebra1" width="200" class="rounded" >}}
@@ -59,9 +59,9 @@ The fact that there is a racial disparity in algebra outcomes suggests that the 
 {{< thumbd src="algebra2.jpg"  title="20 Days after NPR Story" target="algebra2" width="200" class="rounded" >}}
 </div>
 
-So, what about this *lived experience* stuff. Does that make a difference? Can someone ***just as smart*** but with different *lived experiences* really have different capabilities as he suggests? I decided to run an experiment using my son. Could I teach a 7 year old algebra?
+So, what about this *lived experience* stuff. Does that make a difference? Can someone just as talented but with different *lived experiences* really have different capabilities as he suggests? I decided to run an experiment using my son. Could I teach a 7 year old algebra?
 
-It turns out that I could. In fact it was quite easy. While continuing with the memorization of the times tables, which went on for many months, we started with the basics of variables and doing operations on both sides of the equation. It became immediately apparent that he needed to learn fractions as well. So, that got tossed into our *alternative math pathway*. Zev took to all the symbols and logic like a duck to water. He never once complained that his *lived experience* made him incapable of learning these topics.
+It turns out that I could. In fact it was quite easy. We started with the basics of variables and doing operations on both sides of the equation. It became immediately apparent that he needed to learn fractions as well. So, that got tossed into our *alternative math pathway*. Zev took to all the symbols and logic like a duck to water. He never once complained that his *lived experience* made him incapable of learning these topics.
 
 {{< youtube -5J6EwmLX64 >}}
 
@@ -75,7 +75,7 @@ $$x = \cfrac{-b ± \sqrt{b^2 - 4ac}}{2a} \atop \scriptsize{when \ ax^2+bx+c=0}$$
 
 ---
 
-By December 31, 2017 he was able to do legit algebra 2 problems. 
+By December 31, 2017 he was able to do legit algebra 2 problems.
 
 $$\cfrac{x^2+2x+8}{2x^2-8} + \cfrac{2x-8}{x^2-2x} = \cfrac{x+8}{x^2-2x-8} + \cfrac{x}{2x-8}$$
 
@@ -213,13 +213,13 @@ Mr. Oakley is not alone. Strange things are happening around math education in m
 > According to Seattle educators, math instruction in the United States is an example of “Western Math,” which apparently is the appropriation of mathematical knowledge by Western cultures. While everyone agrees that two plus two is four, three times three is nine, and that there are three hundred and sixty degrees in a circle, Western Math critics worry about more nuanced issues, such as why we teach kids Western counting and not, for example, how the Aborigines count.
 — <cite>Ohanian</cite>
 
-Ohanian is wrong about at least one thing. Not everyone agrees that $2 + 2 = 4$. There is a small but growing group of people who will shout from the rafters saying that this is false and "reeks of white supremacist patriarchy". It may sound like a fringe voice, but the author of that is a math education professor from Brooklyn College. If she thinks $2 + 2 = 4$ is white supremacy it is probably not as fringe a position in the academy as we think. Mr. Oakley certainly seems to think that algebra has a certain racist component that means some people who are just as smart as anyone else cannot learn it for some reason. Frankly, that sounds ridiculous.
+Ohanian is wrong about at least one thing. Not everyone agrees that $2 + 2 = 4$. There is a small but growing group of people who will shout from the rafters saying that this is false and "reeks of white supremacist patriarchy". It may sound like a fringe voice, but the author of that is a math education professor from Brooklyn College. If she thinks $2 + 2 = 4$ is white supremacy it is probably not as fringe a position in the academy as we think. Mr. Oakley certainly seems to think that algebra has a certain racist component that means some people cannot learn it because of *lived experience*. Frankly, it sounds ridiculous to me.
 
 
 > Freedom is the freedom to say that 2+2=4. If that is granted, all else follows
 > — <cite>George Orwell, 1984</cite>
 
-There is light at the end of the tunnel. The National Council of Teachers of Mathematics is engaged in a lobbying effort to [detrack math](https://www.nctm.org/News-and-Calendar/Messages-from-the-President/Archive/Robert-Q_-Berry-III/Initiating-Critical-Conversations-on-the-Discontinuation-of-Tracking/). Detracking is literally putting all students of the same age into the same classroom. Apparently they think everyone can learn at the same rate. I guess that means none of us will be taking that terrible algebra class for much longer.
+There is light at the end of this tunnel, thank goodness. The National Council of Teachers of Mathematics is engaged in a lobbying effort to [detrack math](https://www.nctm.org/News-and-Calendar/Messages-from-the-President/Archive/Robert-Q_-Berry-III/Initiating-Critical-Conversations-on-the-Discontinuation-of-Tracking/). Detracking is literally putting all students of the same age into the same classroom. Apparently, ***math teachers*** they think everyone can learn ***math*** at the same rate. I guess that means none of us will be taking that intermediate algebra class for much longer.
 
 Your obedient servant,
 
