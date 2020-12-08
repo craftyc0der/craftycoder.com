@@ -81,4 +81,6 @@ He describes a world that is losing its tether. Rather than the world being obse
 
 Another ritual demands my attention. It is time for the evening cocktail.
 
+---
+
 Your obedient servant,
