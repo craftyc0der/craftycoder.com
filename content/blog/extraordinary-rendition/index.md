@@ -107,4 +107,6 @@ I received that look reserved for children who ask stupid questions too obvious 
 
 I never returned home again. My credit report is still blemished with those $10,000 in late fees for those damn VHS tapes.
 
+---
+
 Your obedient servant,
