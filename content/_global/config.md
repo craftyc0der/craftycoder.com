@@ -61,6 +61,14 @@ fragment = "config"
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+    .small-sans p {
+        margin-left: .8rem;
+        font-family: 'Open Sans Condensed';
+    }
+    .footnotes ol li p {
+        font-size: .875rem;
+        font-family: 'Open Sans Condensed';
+    }
   </style>
   """
 

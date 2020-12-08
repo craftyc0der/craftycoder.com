@@ -7,7 +7,10 @@
       ">
       {{- if .Params.item_url }}
         <a href="{{ .Params.item_url | relLangURL }}">
+      {{- else if .Params.big }}
+        <a {{ with .Get "src" }}href="{{.}}"{{ end }}>
       {{- end }}
+
           {{- $this := . -}}
           <img 
           class="rounded portfolio-background"
@@ -37,6 +40,8 @@
           {{- end }}
           <div class="content hidden"></div>
       {{- if .Params.item_url }}
+        </a>
+      {{- else if .Params.big }}
         </a>
       {{- end }}
     </div>
