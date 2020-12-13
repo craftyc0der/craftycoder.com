@@ -9,7 +9,9 @@ katex = true
 
 summary = """
 
-Today we will discuss a topic near and dear to us all. Especially those who purport to hate it. We will be discussing property rights and why once instantiated, it is always disastrous to abrogate them.
+Today we will be discussing property rights and why once instantiated, it is always disastrous to abrogate them.
+
+...The honest signals we rely on to make decisions will be substituted with the cantankerous whims of faction. Government will become the source of the jobs and as such they will seek to succor their allies at the expense of those factions they oppose...
 
 """
 
@@ -97,7 +99,7 @@ As I said earlier, market economies and the private property rights they depend 
 
 The pad lock photographed here is an instructive example. Soviet manufacturers permanently applied the price to products because there would never be a reason for it to change. This lock will forever cost 5 rubles. Iron or brass becomes more rare? 5 rubles. Manufacturing improvements make locks much cheaper to make? 5 rubles. There is no future for which these technocrats have a lack of certainty.
 
-Market participants transmit signals to each other, often without explicit intention. These signal vary from purchases of, interest in, or calumny for the various good and services in the market. These signals sum together in each of our minds. From which, the right prices emerge. If more profit is available elsewhere, the market responds to these signals by reducing one product and increasing another. No intervention from above is necessary.
+Market participants transmit signals to each other, often without explicit intention. These signal vary from purchases of, interest in, or calumny for the various goods and services in the market. These signals sum together in each of our minds. From which, the right prices emerge. If more profit is available elsewhere, the market responds to these signals by reducing one product and increasing another. No intervention from above is necessary.
 
 > Every individual... neither intends to promote the public interest, nor knows how much he is promoting it... he intends only his own security; and by directing that industry in such a manner as its produce may be of the greatest value, he intends only his own gain, and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention. — <cite>Adam Smith, The Theory of Moral Sentiments</cite>
 

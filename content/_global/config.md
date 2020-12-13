@@ -56,6 +56,14 @@ fragment = "config"
         border-style: ridge;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        border-collapse: separate;
+        border-spacing: .3rem;
+    }
+    .content-body thead tr th[style*="text-align:left"] {
+        padding-right: 1rem;
+    }
+    .content-body thead tr th[style*="text-align:right"] {
+        padding-left: 1rem;
     }
     .content-body details {
         margin-top: 1rem;
@@ -69,6 +77,16 @@ fragment = "config"
         font-size: .875rem;
         font-family: 'Open Sans Condensed';
     }
+    .modal .modal-background {
+        background-color: #333;
+        text-align: center;
+    }
+    .modal-dialog.md {
+        width: 700px;
+    }
+    .modal-dialog {
+        max-width: 700px;
+    
   </style>
   """
 
