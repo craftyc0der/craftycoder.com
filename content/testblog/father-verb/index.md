@@ -103,9 +103,12 @@ As a father, I certainly would like to think I am more important than my genes. 
 |:--------------|------:|------:|------:|
 | **Personality** |||
 | Specific personality disorders | 1% | 56% | 44% |
+| Temperament and personality functions | 5% | 44% | 44% |
 | Emotionally unstable personality | 19% | 46% | 35% |
 | **Abilities** |||
+| Energy and drive functions | 0% | 43% | 57% |
 | Higher-level cognitive functions | 18% | 27% | 55% |
+| Psychomotor functions | 1% | 69% | 30% |
 | Calculation functions | 13% | 32% | 56% |
 | Mild mental retardation | 22% | 45% | 33% |
 | **Social behavior** |||
