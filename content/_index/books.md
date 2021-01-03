@@ -2,12 +2,12 @@
 fragment = "books"
 #disabled = false
 date = "2017-09-09"
-weight = 1000
+weight = 800
 
-id = "2JM308HP9YBN3"
-year = 2020
+id = "1BU4SZVA4AHTT"
+year = 2021
 container = "recentbooks"
 title = "Recently Read Books"
-background = "light"
+background = "secondary"
 count = 4
 +++
