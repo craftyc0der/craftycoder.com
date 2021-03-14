@@ -84,7 +84,12 @@ export default () => {
           })
         })
         booklist.push(bookToAdd);
-        await db.ref('/books/' + year + '/' + bookcode).update(bookToAdd)
+        await db.ref('/books/' + year + '/' + bookcode).update(bookToAdd)        
+        await db.ref('/books/' + year + '/').orderByChild("after").startAt("0").on("child_added", async function(snapshot) {
+          if (snapshot.val().after === bookcode) {
+            await db.ref('/books/' + year + '/' + snapshot.key + '/order').set(bookToAdd.order-1)
+          }          
+        })
       })
       response = undefined
       if (countnum === 0 || (countnum > 0 && booklist.length < countnum)) {
