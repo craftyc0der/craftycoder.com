@@ -70,11 +70,11 @@ $$\frac{dx}{dy} = \cfrac{600t - x}{8-y}$$
 
 We can take the derivative with respect to $y$ of the equation above.
 
-$$\frac{d}{dy}(\frac{(8-y)dx}{dy} = 600t - x)$$
+$$\frac{d}{dy}\lgroup(8-y)\frac{dx}{dy} = 600t - x\rgroup$$
 
 With the product rule we find:
 
-$$(8-y)\frac{dx^2}{d^2y} = 600\cfrac{dt}{dy}$$
+$$(8-y)\frac{dx^2}{d^2y} {\color{red} -\frac{dx}{dy} } = 600\cfrac{dt}{dy} {\color{red} -\frac{dx}{dy} }$$
 
 Let's substitute $\cfrac{dt}{dy}$ out with $\cfrac{dt}{dz} * \cfrac{dz}{dy} = \cfrac{\sqrt{1 + (\frac{dx}{dy})^2}}{2000}$ from our table above.
 
@@ -90,7 +90,7 @@ This can be written as a separable differential equation.
 
 $$\int{\frac{1}{\sqrt{1 + u^2}} du} = \frac{3}{10} \int{\cfrac{1}{8-y}dy}$$
 
-This can be solved directly.
+This can be solved directly:
 
 $$\ln{(\sqrt{1 + u^2} + u)} = \frac{-3}{10} \ln{(8-y)} + \ln{(c)}$$
 
@@ -98,7 +98,7 @@ We cheated here a a bit and set our constant as $\ln{c}$ instead of $c$ to take 
 
 Exponentiating both sides we get:
 
-$$e^{\ln{(\sqrt{1 + u^2} + u)}} = e^{\frac{-3}{10} \ln{(8-y)} + \ln{(c)}}$$
+$${\color{red}e}^{\ln{(\sqrt{1 + u^2} + u)}} = {\color{red}e}^{\frac{-3}{10} \ln{(8-y)} + \ln{(c)}}$$
 
 $$\sqrt{1 + u^2} + u = \cfrac{c}{(8-y)^\frac{3}{10}}$$
 
@@ -126,15 +126,41 @@ $$\int{\frac{1}{\sqrt{1 + u^2}} du} = \frac{3}{10} \int{\cfrac{1}{8-y}dy}$$
 
 In this path we observe that the left side of the integral can be expressed as the inverse hyperbolic sine.
 
-<img src="draw4.png" width="100%">
+$$\sinh^{-1}(u) = \frac{-3}{10} \ln{(8-y)} + \ln{(c)}$$
 
-This yields us a final integral that is a bit different looking but obviously goes to the same values.
+Exponentiating both sides we get:
+
+$${\color{red}e}^{\sinh^{-1}(u)} = {\color{red}e}^{\ln(\frac{c}{(8-y)^{\frac{3}{10}}})}$$
+
+Simplifying:
+
+$$e^{\sinh^{-1}(u)} = \frac{c}{(8-y)^{\frac{3}{10}}}$$
+
+Solve for $c$ by setting $x$ & $y = 0$:
+
+$$c = 8^{\frac{3}{10}}$$
+
+Solve for $u$ and substitute in $c$:
+
+$$\sinh^{-1}(u) = \ln(\frac{c}{(8-y)^{\frac{3}{10}}})$$
+
+$$u = \sinh(\ln(\frac{8^{\frac{3}{10}}}{(8-y)^{\frac{3}{10}}}))$$
+
+Note the definition of the $\sinh(a)$:
+
+$$\sinh(a) = \frac{e^{a} - e^{-a}}{2}$$
+
+Substitute $\frac{dx}{dy}$ back in for $u$ and use the above definition of $\sinh$:
+
+$$\frac{dx}{dy} = \frac{e^{\ln(\frac{8^{\frac{3}{10}}}{(8-y)^{\frac{3}{10}}})} - e^{\ln(\frac{(8-y)^{\frac{3}{10}}}{8^{\frac{3}{10}}})}}{2}$$
+
+This yields us a separable differential equation which we can integrate. The final integral is a bit different looking but obviously goes to the same values.
 
 $$\int{dx} = \int{e^{\ln{(\frac{8^{\frac{3}{10}}}{(8-y)^{\frac{3}{10}}})}} - e^{\ln{(\frac{(8-y)^{\frac{3}{10}}}{8^{\frac{3}{10}}})}}dy}$$
 
 While complex looking it yields a direct answer in Wolfram Alpha
 
-$x =$ <img src="draw5.png" width="80%"> $+ k$
+$$x = \frac{1}{2}(\frac{1.86607(1.42857y-11.4286)}{(8-y)^{\frac{3}{10}}} - 0.535887(8-y)^{\frac{3}{10}}(0.769231y-6.15385)) + k$$
 
 $k$ is our new constant to solve for.
 
