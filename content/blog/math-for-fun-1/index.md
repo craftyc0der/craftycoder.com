@@ -166,7 +166,7 @@ $k$ is our new constant to solve for.
 
 At $t=0$, $x = 0$ & $y = 0$ thus $k = 2.64$
 
-As we can see, when $y$ approaches $8$ from the left, the right side expressions approaches $\frac{0}{0}$. So, this solution has no answer at collision time, though it is fair to say the missile hits the plane.
+As we can see, when $y$ approaches $8$ from the left, the right side expressions approaches divide by zero error. So, this solution has no answer at exactly collision time. It is fair however to say the missile hits the plane.
 
 <img src="draw6.png" width="80%">
 
