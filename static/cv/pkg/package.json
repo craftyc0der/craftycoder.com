@@ -1,0 +1,16 @@
+{
+  "name": "wasm-app",
+  "collaborators": [
+    "kylekosic <kylekosic@gmail.com>",
+    "craftyc0der <josh@craftycoder.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_app_bg.wasm",
+    "wasm_app.js",
+    "wasm_app.d.ts"
+  ],
+  "module": "wasm_app.js",
+  "types": "wasm_app.d.ts",
+  "sideEffects": false
+}

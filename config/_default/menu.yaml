@@ -7,13 +7,16 @@ main:
     weight: 20
   - url: /books
     name: Books
-    weight: 30    
+    weight: 30
   - url: /haiku
     name: Haiku
-    weight: 30    
+    weight: 30
   - url: /about
     name: About Me
     weight: 50
+  - url: /cv
+    name: CV
+    weight: 60
 #footer:
 #  - url: '#'
 #    name: Link
